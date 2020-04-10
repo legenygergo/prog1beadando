@@ -15,4 +15,4 @@ x=legnagyobb_kozos_oszto(nevezo, szamlalo)
 ujnevezo=int(nevezo/x)
 ujszamlalo=int(szamlalo/x)
 
-print(str(ujszamlalo)+"/"+str(ujnevezo))
+print(str(ujszamlalo)+","+str(ujnevezo))

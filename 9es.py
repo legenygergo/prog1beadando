@@ -18,3 +18,7 @@ while szam != T and mehet:
         print("Yes")
     szam+=1
 
+# A feladatból nem volt egyértelmű, hogy lehet-e cserélni az elemeket, úgy vettem hogy nem. Igy akkor tér vissza
+# Yes-sel, ha megfelel azoknak a kritériumoknak, hogy az M és N szorzata páros, illetve egyik sem lehet egyenlő
+# 1-el. Ha mégis lehetne cserélni, a különbség annyi lenne, hogy egy egysoros vagy egy oszlopos mátrixnál is
+# visszatérhetne Yes-el, amennyiben az egyik paraméter páros.
