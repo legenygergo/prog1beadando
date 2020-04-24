@@ -1,9 +1,8 @@
-
 import numpy as np
 import matplotlib.pyplot as plt
 
-matrixmeret=input("Adja meg a mátrix méreteit, illetve a választott szin nevét space-ekkel elválasztva: ")
-n, m, szin = matrixmeret.split()
+matrixmeret=input("Adja meg a mátrix méreteit, illetve a választott szin nevét vesszőkkel és egy space-el elválasztva: ")
+n, m, szin = matrixmeret.split(", ")
 
 piros = np.zeros([int(n), int(m), 3], dtype=np.uint8)
 piros[:,:] = [255, 0, 0]
